@@ -1,0 +1,125 @@
+/* =====================
+   GLOBAL
+===================== */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.7;
+    scroll-behavior: smooth;
+    background-color: #f8f9fa;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1, h2, h3, h5 {
+    letter-spacing: 0.5px;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffe082 !important;
+}
+
+/* =====================
+   HERO / HOME
+===================== */
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: white;
+    padding: 120px 0;
+}
+
+.hero img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.4);
+}
+
+.hero p {
+    opacity: 0.9;
+}
+
+/* =====================
+   KARYA & PROJECT
+===================== */
+#Karya\ Dan\ Project .Karya\ Dan\ Project-item {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+#Karya\ Dan\ Project img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+#Karya\ Dan\ Project .Karya\ Dan\ Project-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* =====================
+   PROFILE
+===================== */
+#profile img {
+    transition: 0.3s;
+}
+
+#profile img:hover {
+    transform: scale(1.05);
+}
+
+#profile .list-group-item {
+    background: transparent;
+    border: none;
+    padding-left: 0;
+}
+
+/* =====================
+   MEDIA
+===================== */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.12);
+}
+
+.card img,
+.card video {
+    border-bottom: 1px solid #eee;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
